@@ -1,0 +1,32 @@
+What is a Module?
+A module is a single file or a collection of files that can be imported or exported to use specific functionality.
+
+Key Characteristics:
+Granularity:
+
+A module is a single unit of functionality, typically implemented in a single file.
+Example: math.js containing mathematical functions like add, subtract, etc.
+Usage:
+
+Modules allow you to split your code into smaller, reusable pieces.
+They focus on solving specific problems.
+Exports and Imports:
+
+Modules expose specific code (variables, functions, classes) using export.
+Other files can use that code via import.
+
+
+A package is a collection of one or more modules organized together, typically with additional metadata and configuration. Packages are often used for distribution.
+
+Key Characteristics:
+Granularity:
+
+A package is a logical group of modules bundled together.
+Packages may also include supporting files like documentation, configuration, and build scripts.
+Package Manager:
+
+Packages are usually published and distributed using a package manager (e.g., npm for JavaScript).
+Example: lodash, a package that includes many utility functions.
+Metadata:
+
+Packages have a package.json file that defines metadata (name, version, dependencies, etc.).
