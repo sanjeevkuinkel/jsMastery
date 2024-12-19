@@ -1,5 +1,7 @@
 //?Destructuring in JavaScript is a powerful feature introduced in ES6 (ECMAScript 2015) that allows you to unpack values from arrays or properties from objects into distinct variables. This technique simplifies the process of extracting data from complex structures, making your code more concise and readable.
 
+//?on destructuring  we use curly braces {} to unpack values from objects and square brackets [] to unpack values from arrays.
+
 //!Array Destructuring with rest operator
 let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let [first, second, third, ...rest] = number;

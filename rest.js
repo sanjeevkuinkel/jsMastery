@@ -3,6 +3,7 @@
 
 //?Single Rest Parameter:A function can only have one rest parameter, and it must be placed at the end of the parameter list.
 //?When a function is called with more arguments than it has explicitly defined parameters, the rest operator collects those extra arguments into an array.
+//* curly braces {} to unpack values from objects and square brackets [] to unpack values from arrays.
 const month = [
   "Jan",
   "Feb",
